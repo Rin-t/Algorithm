@@ -20,6 +20,13 @@ class Solution {
             nums.swapAt(first, index)
             self.recurse(first+1, &nums, &result)
             nums.swapAt(first, index)
+
         }
     }
 }
+
+
+var nums = [1,2]
+
+nums.swapAt(0, 1)
+
